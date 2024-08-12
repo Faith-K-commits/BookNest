@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #2c3e50; /* Primary color for the navigation bar, buttons, and main text.*/
+  --secondary-color: #2980b9; /*Secondary color for hover states and form input borders.*/
+  --accent-color: #e74c3c; /* Accent color for delete actions and error messages.*/
+  --background-color: #ecf0f1; /*Background color for the entire app.*/
+  --secondary-text-color: #34495e; /*Secondary text color.*/
+  --highlight-color: #f39c12; /*Highlight color for notifications and selected items.*/
+  --book-form-background-color: #ffffff; /*Background for book cards and form fields.*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--background-color);
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 10px 20px;
+}
+
+.navbar-brand .brand-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.center-links {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.active-link {
+  color: var(--highlight-color);
+  border-bottom: 2px solid var(--highlight-color); /* Underline active link */
+}
+
+.right-link {
+  margin-left: auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--book-form-background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* hover effect */
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: var(--primary-color);
+}
+
+.card span {
+  display: block;
+  font-size: 0.9em;
+  color: var(--secondary-text-color);
+  margin-top: 5px;
+}
+
+.card button {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
