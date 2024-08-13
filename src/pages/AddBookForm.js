@@ -4,9 +4,9 @@ import { useNavigate, useOutletContext } from "react-router-dom";
 const AddBookForm = () => {
   const { addBook } = useOutletContext();
   const [title, setTitle] = useState("");
-  const [authors, setAuthors] = useState([]);
+  const [authors, setAuthors] = useState("");
   const [year, setYear] = useState("");
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState("");
   const [description, setDescription] = useState("");
   const [cover, setCover] = useState("");
   const navigate = useNavigate();
@@ -15,17 +15,17 @@ const AddBookForm = () => {
     e.preventDefault();
     const newBook = {
       title,
-      authors,
+      authors: authors.split(",").map((author) => author.trim()), // Convert to array
       year,
-      categories,
+      categories: categories.split(",").map((category) => category.trim()), // Convert to array
       description,
       cover,
     };
     addBook(newBook);
     setTitle("");
-    setAuthors([]);
+    setAuthors("");
     setYear("");
-    setCategories([]);
+    setCategories("");
     setDescription("");
     setCover("");
     navigate("/");
