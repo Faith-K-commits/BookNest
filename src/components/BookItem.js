@@ -10,9 +10,9 @@ const BookItem = ({ book }) => {
 
   return (
     <div className="card">
-      <img src={book.image} alt={book.title} />
+      <img src={book.cover} alt={book.title} />
       <h3>{book.title}</h3>
-      {book.authors &&
+      {Array.isArray(book.authors) &&
         book.authors.map((author, index) => <span key={index}>{author}</span>)}
       <br />
       <button onClick={handleClickBook}>Book Info</button>
