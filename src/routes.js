@@ -12,16 +12,14 @@ const routes = [
       {
         path: "/",
         element: <BookContainer />,
-        children: [
-          {
-            path: "/add-book",
-            element: <AddBookForm />,
-          },
-        ],
       },
       {
         path: "/categories",
         element: <Categories />,
+      },
+      {
+        path: "/add-book",
+        element: <AddBookForm />,
       },
       {
         path: "/books/:title",

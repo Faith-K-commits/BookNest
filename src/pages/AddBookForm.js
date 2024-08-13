@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useOutletContext } from "react-router-dom";
 
 const AddBookForm = () => {
-  const addBook = useOutletContext();
+  const { addBook } = useOutletContext();
   const [title, setTitle] = useState("");
   const [authors, setAuthors] = useState([]);
   const [year, setYear] = useState("");
@@ -69,9 +69,7 @@ const AddBookForm = () => {
           value={cover}
           onChange={(e) => setCover(e.target.value)}
         />
-        <button type="submit" onClick={() => console.log("add book")}>
-          Add Book
-        </button>
+        <button type="submit">Add Book</button>
       </form>
     </div>
   );
