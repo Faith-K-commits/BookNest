@@ -61,7 +61,7 @@
       "year": 2022,
       "categories": ["Programming", "Web Development", "Django", "Python"],
       "description": "A practical guide to building web applications with Django 3, from basic to advanced features.",
-      "cover": "assets/django -4.jpg"
+      "cover": "assets/django-4.jpg"
     },
     {
       "id": 8,
@@ -197,18 +197,17 @@
     { "id": 13, "category": "JavaScript" },
     { "id": 14, "category": "Web Development" },
     { "id": 15, "category": "Philosophy" },
-    { "id": 16, "category": "programming" },
-    { "id": 17, "category": "American Fiction" },
-    { "id": 18, "category": "Leadership" },
-    { "id": 19, "category": "Young Adult" },
-    { "id": 20, "category": "Best Practices" },
-    { "id": 21, "category": "Business" },
-    { "id": 22, "category": "Entrepreneurship" },
-    { "id": 23, "category": "Startups" },
-    { "id": 24, "category": "Flask" },
-    { "id": 25, "category": "APIs" },
-    { "id": 26, "category": "Spring Boot" },
-    { "id": 27, "category": "Django" },
-    { "id": 28, "category": "Python" }
+    { "id": 16, "category": "American Fiction" },
+    { "id": 17, "category": "Leadership" },
+    { "id": 18, "category": "Young Adult" },
+    { "id": 19, "category": "Best Practices" },
+    { "id": 20, "category": "Business" },
+    { "id": 21, "category": "Entrepreneurship" },
+    { "id": 22, "category": "Startups" },
+    { "id": 23, "category": "Flask" },
+    { "id": 24, "category": "APIs" },
+    { "id": 25, "category": "Spring Boot" },
+    { "id": 26, "category": "Django" },
+    { "id": 27, "category": "Python" }
   ]
 }

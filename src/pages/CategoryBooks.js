@@ -24,6 +24,7 @@ const CategoryBooks = () => {
   if (loading) return <h1>Loading...</h1>;
   return (
     <div>
+      {/* FIXME: Fix image display */}
       <h1>Books in {category} Category</h1>
       {books.length > 0 ? (
         <div className="book-grid">
