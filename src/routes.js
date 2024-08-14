@@ -3,6 +3,7 @@ import BookContainer from "./components/BookContainer";
 import AddBookForm from "./pages/AddBookForm";
 import BookDetail from "./pages/BookDetail";
 import Categories from "./pages/Categories";
+import CategoryBooks from "./pages/CategoryBooks";
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
       {
         path: "/categories",
         element: <Categories />,
+      },
+      {
+        path: "/categories/:category",
+        element: <CategoryBooks />,
       },
       {
         path: "/add-book",

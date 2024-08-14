@@ -10,7 +10,7 @@ const BookItem = ({ book }) => {
 
   return (
     <div className="card">
-      <img src={book.cover} alt={book.title} />
+      <img src={book.cover} alt={`${book.title} cover`} />
       <h3>{book.title}</h3>
       {Array.isArray(book.authors) &&
         book.authors.map((author, index) => <span key={index}>{author}</span>)}

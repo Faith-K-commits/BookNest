@@ -176,3 +176,38 @@ button[type="submit"]:hover {
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
+
+.categories {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.category-card {
+  background-color: var(--book-form-background-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category-card a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.category-card a:hover {
+  color: var(--secondary-color);
+}
