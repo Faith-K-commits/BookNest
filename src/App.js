@@ -46,6 +46,15 @@ const App = () => {
       )
   );
 
+  const deleteBook = (id) => {
+    fetch(`http://localhost:8001/books/${id}`, { method: "DELETE" }).then(
+      () => {
+        const updatedData = books.filter((book) => book.id !== id);
+        setBooks(updatedData);
+      }
+    );
+  };
+
   return (
     <div>
       <NavBar />
@@ -57,7 +66,9 @@ const App = () => {
           onChange={handleFilterChange}
         />
       </div>
-      <Outlet context={{ books: filteredBooks, addBook, loading }} />
+      <Outlet
+        context={{ books: filteredBooks, addBook, loading, deleteBook }}
+      />
       {filteredBooks.length === 0 && (
         <p className="no-books-message">
           No books found matching your criteria.

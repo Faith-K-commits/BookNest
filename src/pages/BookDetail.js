@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useOutletContext, useNavigate } from "react-router-dom";
 
 const BookDetail = () => {
   const { title } = useParams();
   const [book, setBook] = useState(null);
   const [loading, setLoading] = useState(true);
+  const { deleteBook } = useOutletContext();
+  const navigate = useNavigate();
+
+  const handleDelete = () => {
+    deleteBook(book.id);
+    navigate("/");
+  };
 
   useEffect(() => {
     fetch(`http://localhost:8001/books?title=${title}`)
@@ -43,7 +50,7 @@ const BookDetail = () => {
         </p>
         {/* TODO: Implement edit and delete feature */}
         <button>Edit</button>
-        <button>Delete</button>
+        <button onClick={handleDelete}>Delete</button>
       </div>
     </div>
   );

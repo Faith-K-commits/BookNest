@@ -3,211 +3,416 @@
     {
       "id": 1,
       "title": "Pro RESTful APIs with Spring Boot",
-      "authors": ["Sanjay Patni"],
+      "authors": [
+        "Sanjay Patni"
+      ],
       "year": 2017,
-      "categories": ["Programming", "Web Development", "APIs", "Spring Boot"],
+      "categories": [
+        "Programming",
+        "Web Development",
+        "APIs",
+        "Spring Boot"
+      ],
       "description": "A comprehensive guide to building RESTful APIs using Spring Boot, including best practices and advanced techniques.",
       "cover": "assets/pro-restful-apis-with-springboot.jpg"
     },
     {
       "id": 2,
       "title": "Flask Web Development",
-      "authors": ["Miguel Grinberg"],
+      "authors": [
+        "Miguel Grinberg"
+      ],
       "year": 2014,
-      "categories": ["Programming", "Web Development", "Python", "Flask"],
+      "categories": [
+        "Programming",
+        "Web Development",
+        "Python",
+        "Flask"
+      ],
       "description": "A hands-on guide to building web applications with Flask, a lightweight Python framework, covering the basics to advanced features.",
       "cover": "assets/flask-web-development.jpg"
     },
     {
       "id": 3,
       "title": "Clean Code",
-      "authors": ["Robert C. Martin"],
+      "authors": [
+        "Robert C. Martin"
+      ],
       "year": 2008,
-      "categories": ["Programming", "Software Development", "Best Practices"],
+      "categories": [
+        "Programming",
+        "Software Development",
+        "Best Practices"
+      ],
       "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable code.",
       "cover": "assets/clean-code.jpeg"
     },
     {
       "id": 4,
       "title": "The Pragmatic Programmer",
-      "authors": ["Andrew Hunt", "David Thomas"],
+      "authors": [
+        "Andrew Hunt",
+        "David Thomas"
+      ],
       "year": 1999,
-      "categories": ["Programming", "Software Development", "Best Practices"],
+      "categories": [
+        "Programming",
+        "Software Development",
+        "Best Practices"
+      ],
       "description": "Your journey to mastery starts here. A guide to becoming a better programmer.",
       "cover": "assets/pragmatic-programmer.jpeg"
     },
     {
       "id": 5,
       "title": "Atomic Habits",
-      "authors": ["James Clear"],
+      "authors": [
+        "James Clear"
+      ],
       "year": 2018,
-      "categories": ["Self-Help", "Personal Development", "Psychology"],
+      "categories": [
+        "Self-Help",
+        "Personal Development",
+        "Psychology"
+      ],
       "description": "An easy and proven way to build good habits and break bad ones.",
       "cover": "assets/atomic-habits.jpg"
     },
     {
       "id": 6,
       "title": "The Subtle Art of Not Giving a F*ck",
-      "authors": ["Mark Manson"],
+      "authors": [
+        "Mark Manson"
+      ],
       "year": 2016,
-      "categories": ["Self-Help", "Personal Development", "Psychology"],
+      "categories": [
+        "Self-Help",
+        "Personal Development",
+        "Psychology"
+      ],
       "description": "A counterintuitive approach to living a good life.",
       "cover": "assets/art-of-not-giving-a-f*ck.jpg"
     },
     {
       "id": 7,
       "title": "Django 4 By Example",
-      "authors": ["Antonio Mele"],
+      "authors": [
+        "Antonio Mele"
+      ],
       "year": 2022,
-      "categories": ["Programming", "Web Development", "Django", "Python"],
+      "categories": [
+        "Programming",
+        "Web Development",
+        "Django",
+        "Python"
+      ],
       "description": "A practical guide to building web applications with Django 3, from basic to advanced features.",
       "cover": "assets/django-4.jpg"
     },
     {
       "id": 8,
       "title": "The Lean Startup",
-      "authors": ["Eric Ries"],
+      "authors": [
+        "Eric Ries"
+      ],
       "year": 2011,
-      "categories": ["Business", "Entrepreneurship", "Startups"],
+      "categories": [
+        "Business",
+        "Entrepreneurship",
+        "Startups"
+      ],
       "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses.",
       "cover": "assets/startup.jpg"
     },
     {
       "id": 9,
       "title": "You Don't Know JS: Scope & Closures",
-      "authors": ["Kyle Simpson"],
+      "authors": [
+        "Kyle Simpson"
+      ],
       "year": 2014,
-      "categories": ["Programming", "JavaScript", "Web Development"],
+      "categories": [
+        "Programming",
+        "JavaScript",
+        "Web Development"
+      ],
       "description": "An in-depth look into JavaScript's scope and closures, a must-read for JavaScript developers.",
       "cover": "assets/you-don't-know-js.jpg"
     },
     {
       "id": 10,
       "title": "The 7 Habits of Highly Effective People",
-      "authors": ["Stephen R. Covey"],
+      "authors": [
+        "Stephen R. Covey"
+      ],
       "year": 1989,
-      "categories": ["Self-Help", "Personal Development", "Leadership"],
+      "categories": [
+        "Self-Help",
+        "Personal Development",
+        "Leadership"
+      ],
       "description": "A principle-centered approach to solving personal and professional problems.",
       "cover": "assets/habits-of-highly-effective-people.jpg"
     },
     {
       "id": 11,
       "title": "The Catcher in the Rye",
-      "authors": ["J.D. Salinger"],
+      "authors": [
+        "J.D. Salinger"
+      ],
       "year": 1951,
-      "categories": ["Literature and Fiction", "Classics", "Young Adult"],
+      "categories": [
+        "Literature and Fiction",
+        "Classics",
+        "Young Adult"
+      ],
       "description": "A story about teenage rebellion and angst in the life of Holden Caulfield.",
       "cover": "assets/the-catcher-in-the-rhy.jpg"
     },
     {
       "id": 12,
       "title": "JavaScript: The Good Parts",
-      "authors": ["Douglas Crockford"],
+      "authors": [
+        "Douglas Crockford"
+      ],
       "year": 2008,
-      "categories": ["Programming", "JavaScript", "Web Development"],
+      "categories": [
+        "Programming",
+        "JavaScript",
+        "Web Development"
+      ],
       "description": "A deep dive into the better parts of JavaScript, highlighting the best practices.",
       "cover": "assets/javascript.jpg"
     },
     {
       "id": 13,
       "title": "Man's Search for Meaning",
-      "authors": ["Viktor E. Frankl"],
+      "authors": [
+        "Viktor E. Frankl"
+      ],
       "year": 1946,
-      "categories": ["Psychology", "Philosophy", "Self-Help"],
+      "categories": [
+        "Psychology",
+        "Philosophy",
+        "Self-Help"
+      ],
       "description": "A profound reflection on finding meaning in the midst of suffering.",
       "cover": "assets/man's-search-for-meaning.jpg"
     },
     {
       "id": 14,
       "title": "The Great Gatsby",
-      "authors": ["F. Scott Fitzgerald"],
+      "authors": [
+        "F. Scott Fitzgerald"
+      ],
       "year": 1925,
-      "categories": ["Literature and Fiction", "Classics", "American Fiction"],
+      "categories": [
+        "Literature and Fiction",
+        "Classics",
+        "American Fiction"
+      ],
       "description": "A novel about the American dream, wealth, and social status in the 1920s.",
       "cover": "assets/the-great-gatsby.jpg"
     },
     {
       "id": 15,
       "title": "Eloquent JavaScript",
-      "authors": ["Marijn Haverbeke"],
+      "authors": [
+        "Marijn Haverbeke"
+      ],
       "year": 2011,
-      "categories": ["Programming", "JavaScript", "Web Development"],
+      "categories": [
+        "Programming",
+        "JavaScript",
+        "Web Development"
+      ],
       "description": "A modern introduction to JavaScript, covering everything from the basics to more advanced topics.",
       "cover": "/assets/eloquent-js.jpg"
     },
     {
       "id": 16,
       "title": "Deep Work",
-      "authors": ["Cal Newport"],
+      "authors": [
+        "Cal Newport"
+      ],
       "year": 2016,
-      "categories": ["Self-Help", "Productivity", "Personal Development"],
+      "categories": [
+        "Self-Help",
+        "Productivity",
+        "Personal Development"
+      ],
       "description": "A guide to focusing on the important work that brings the most value.",
       "cover": "/assets/deep-work.jpg"
     },
     {
       "id": 17,
       "title": "Pride and Prejudice",
-      "authors": ["Jane Austen"],
+      "authors": [
+        "Jane Austen"
+      ],
       "year": 1813,
-      "categories": ["Literature and Fiction", "Classics", "Romance"],
+      "categories": [
+        "Literature and Fiction",
+        "Classics",
+        "Romance"
+      ],
       "description": "A romantic novel that explores the issues of class, marriage, and social standing.",
       "cover": "assets/pride-and-prejudice.jpeg"
     },
     {
       "id": 18,
       "title": "Thinking, Fast and Slow",
-      "authors": ["Daniel Kahneman"],
+      "authors": [
+        "Daniel Kahneman"
+      ],
       "year": 2011,
-      "categories": ["Psychology", "Cognitive Science", "Self-Help"],
+      "categories": [
+        "Psychology",
+        "Cognitive Science",
+        "Self-Help"
+      ],
       "description": "A book that explores the two systems of thinking and how they shape our decisions.",
       "cover": "assets/thinking-first-and-slow.jpg"
     },
     {
       "id": 19,
       "title": "The Art of Computer Programming",
-      "authors": ["Donald E. Knuth"],
+      "authors": [
+        "Donald E. Knuth"
+      ],
       "year": 1968,
-      "categories": ["Programming", "Computer Science", "Algorithms"],
+      "categories": [
+        "Programming",
+        "Computer Science",
+        "Algorithms"
+      ],
       "description": "A comprehensive monograph written by Donald Knuth that covers many kinds of programming algorithms.",
       "cover": "assets/art-of-computer-programming.png"
     },
     {
       "id": 20,
       "title": "How to Win Friends and Influence People",
-      "authors": ["Dale Carnegie"],
+      "authors": [
+        "Dale Carnegie"
+      ],
       "year": 1936,
-      "categories": ["Self-Help", "Personal Development", "Communication"],
+      "categories": [
+        "Self-Help",
+        "Personal Development",
+        "Communication"
+      ],
       "description": "A timeless guide to improving your social skills and becoming more influential.",
       "cover": "/assets/0nMGukoSBurGzyONnUvwLh0QPGxbhq35d4fLCkkTAWA-MEDIUM.jpg"
     }
   ],
   "categories": [
-    { "id": 1, "category": "Self-Help" },
-    { "id": 2, "category": "Personal Development" },
-    { "id": 3, "category": "Communication" },
-    { "id": 4, "category": "Programming" },
-    { "id": 5, "category": "Computer Science" },
-    { "id": 6, "category": "Algorithms" },
-    { "id": 7, "category": "Psychology" },
-    { "id": 8, "category": "Cognitive Science" },
-    { "id": 9, "category": "Literature and Fiction" },
-    { "id": 10, "category": "Classics" },
-    { "id": 11, "category": "Romance" },
-    { "id": 12, "category": "Productivity" },
-    { "id": 13, "category": "JavaScript" },
-    { "id": 14, "category": "Web Development" },
-    { "id": 15, "category": "Philosophy" },
-    { "id": 16, "category": "American Fiction" },
-    { "id": 17, "category": "Leadership" },
-    { "id": 18, "category": "Young Adult" },
-    { "id": 19, "category": "Best Practices" },
-    { "id": 20, "category": "Business" },
-    { "id": 21, "category": "Entrepreneurship" },
-    { "id": 22, "category": "Startups" },
-    { "id": 23, "category": "Flask" },
-    { "id": 24, "category": "APIs" },
-    { "id": 25, "category": "Spring Boot" },
-    { "id": 26, "category": "Django" },
-    { "id": 27, "category": "Python" }
+    {
+      "id": 1,
+      "category": "Self-Help"
+    },
+    {
+      "id": 2,
+      "category": "Personal Development"
+    },
+    {
+      "id": 3,
+      "category": "Communication"
+    },
+    {
+      "id": 4,
+      "category": "Programming"
+    },
+    {
+      "id": 5,
+      "category": "Computer Science"
+    },
+    {
+      "id": 6,
+      "category": "Algorithms"
+    },
+    {
+      "id": 7,
+      "category": "Psychology"
+    },
+    {
+      "id": 8,
+      "category": "Cognitive Science"
+    },
+    {
+      "id": 9,
+      "category": "Literature and Fiction"
+    },
+    {
+      "id": 10,
+      "category": "Classics"
+    },
+    {
+      "id": 11,
+      "category": "Romance"
+    },
+    {
+      "id": 12,
+      "category": "Productivity"
+    },
+    {
+      "id": 13,
+      "category": "JavaScript"
+    },
+    {
+      "id": 14,
+      "category": "Web Development"
+    },
+    {
+      "id": 15,
+      "category": "Philosophy"
+    },
+    {
+      "id": 16,
+      "category": "American Fiction"
+    },
+    {
+      "id": 17,
+      "category": "Leadership"
+    },
+    {
+      "id": 18,
+      "category": "Young Adult"
+    },
+    {
+      "id": 19,
+      "category": "Best Practices"
+    },
+    {
+      "id": 20,
+      "category": "Business"
+    },
+    {
+      "id": 21,
+      "category": "Entrepreneurship"
+    },
+    {
+      "id": 22,
+      "category": "Startups"
+    },
+    {
+      "id": 23,
+      "category": "Flask"
+    },
+    {
+      "id": 24,
+      "category": "APIs"
+    },
+    {
+      "id": 25,
+      "category": "Spring Boot"
+    },
+    {
+      "id": 26,
+      "category": "Django"
+    },
+    {
+      "id": 27,
+      "category": "Python"
+    }
   ]
 }

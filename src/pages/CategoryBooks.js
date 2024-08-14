@@ -39,7 +39,7 @@ const CategoryBooks = () => {
             ))}
         </div>
       ) : (
-        <p>No books found in this category.</p>
+        <p className="no-books-message">No books found in this category.</p>
       )}
     </div>
   );
