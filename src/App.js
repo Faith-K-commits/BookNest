@@ -59,8 +59,6 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      {/* FIXME: Move filter input to its own component */}
-
       <Outlet
         context={{
           books,
