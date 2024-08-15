@@ -5,7 +5,6 @@ import NavBar from "./components/NavBar";
 const App = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:8001/books")
@@ -31,21 +30,6 @@ const App = () => {
       });
   };
 
-  const handleFilterChange = (e) => setFilter(e.target.value);
-
-  const filteredBooks = books.filter(
-    (book) =>
-      book.title.toLowerCase().includes(filter.toLowerCase()) ||
-      book.authors.some((author) =>
-        // Check if atleast one author is found
-        author.toLowerCase().includes(filter.toLowerCase())
-      ) ||
-      // Check if atleast one category is found
-      book.categories.some((category) =>
-        category.toLowerCase().includes(filter.toLowerCase())
-      )
-  );
-
   const deleteBook = (id) => {
     fetch(`http://localhost:8001/books/${id}`, { method: "DELETE" }).then(
       () => {
@@ -55,25 +39,37 @@ const App = () => {
     );
   };
 
+  const editBook = (id, updatedBook) => {
+    fetch(`http://localhost:8001/books/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(updatedBook),
+    })
+      .then((res) => res.json())
+      .then(() => {
+        const updatedData = books.map((book) =>
+          book.id === id ? updatedBook : book
+        );
+        setBooks(updatedData);
+      });
+  };
+
   return (
     <div>
       <NavBar />
-      <div className="filter">
-        <input
-          type="text"
-          placeholder="Filter by title, author, or category"
-          value={filter}
-          onChange={handleFilterChange}
-        />
-      </div>
+      {/* FIXME: Move filter input to its own component */}
+
       <Outlet
-        context={{ books: filteredBooks, addBook, loading, deleteBook }}
+        context={{
+          books,
+          addBook,
+          loading,
+          deleteBook,
+          editBook,
+        }}
       />
-      {filteredBooks.length === 0 && (
-        <p className="no-books-message">
-          No books found matching your criteria.
-        </p>
-      )}
     </div>
   );
 };

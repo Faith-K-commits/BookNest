@@ -10,7 +10,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-links">
         <div className="center-links">
-          <NavLink to="/" className="nav-link" activeclassname="active-link">
+          <NavLink to="/" className="nav-link active-link">
             Home
           </NavLink>
           <NavLink

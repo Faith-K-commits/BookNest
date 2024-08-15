@@ -49,8 +49,14 @@ const BookDetail = () => {
           <strong>Description:</strong> {book.description}
         </p>
         {/* TODO: Implement edit and delete feature */}
-        <button>Edit</button>
-        <button onClick={handleDelete}>Delete</button>
+        <div className="buttons">
+          <button type="submit" className="edit">
+            Edit
+          </button>
+          <button className="delete" onClick={handleDelete}>
+            Delete
+          </button>
+        </div>
       </div>
     </div>
   );
