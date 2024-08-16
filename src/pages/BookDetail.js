@@ -100,6 +100,7 @@ const BookDetail = () => {
               <strong>Description:</strong>
               <input
                 type="text"
+                name="description"
                 value={book.description}
                 onChange={handleInputChange}
               />
