@@ -11,7 +11,6 @@ const CategoryBooks = () => {
     fetch(`http://localhost:8001/books?categories_like=${category}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data); // Log the fetched data
         setBooks(data);
         setLoading(false);
       })
