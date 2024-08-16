@@ -8,6 +8,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Demo](#demo)
 
 # Introduction
 
@@ -32,8 +33,8 @@ This is a simple React application designed to manage a book library. It allows 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Faith-K-commits/booknest.git
-   cd booknest
+   git clone https://github.com/Faith-K-commits/BookNest.git
+   cd BookNest
    ```
 
 2. Install the dependencies:
@@ -111,3 +112,7 @@ This is a simple React application designed to manage a book library. It allows 
 - Endpoint: `/categories/:category`
 - Description: View a list of books in a specific category
 - Exampe Request: `http://localhost:8001/books?categories_like=${category}`
+
+# Demo
+
+[![View Demo](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
