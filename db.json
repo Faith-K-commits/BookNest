@@ -3,319 +3,182 @@
     {
       "id": "1",
       "title": "Pro RESTful APIs with Spring Boot",
-      "authors": [
-        "Sanjay Patni"
-      ],
+      "authors": ["Sanjay Patni"],
       "year": 2017,
-      "categories": [
-        "Programming",
-        "Web Development",
-        "APIs",
-        "Spring Boot"
-      ],
+      "categories": ["Programming", "Web Development", "APIs", "Spring Boot"],
       "description": "A comprehensive guide to building RESTful APIs using Spring Boot, including best practices and advanced techniques.",
       "cover": "assets/pro-restful-apis-with-springboot.jpg"
     },
     {
       "id": "2",
       "title": "Flask Web Development",
-      "authors": [
-        "Miguel Grinberg"
-      ],
+      "authors": ["Miguel Grinberg"],
       "year": 2014,
-      "categories": [
-        "Programming",
-        "Web Development",
-        "Python",
-        "Flask"
-      ],
+      "categories": ["Programming", "Web Development", "Python", "Flask"],
       "description": "A hands-on guide to building web applications with Flask, a lightweight Python framework, covering the basics to advanced features.",
       "cover": "assets/flask-web-development.jpg"
     },
     {
       "id": "3",
       "title": "Clean Code",
-      "authors": [
-        "Robert C. Martin"
-      ],
+      "authors": ["Robert C. Martin"],
       "year": 2008,
-      "categories": [
-        "Programming",
-        "Software Development",
-        "Best Practices"
-      ],
+      "categories": ["Programming", "Software Development", "Best Practices"],
       "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable code.",
       "cover": "assets/clean-code.jpeg"
     },
     {
       "id": "4",
       "title": "The Pragmatic Programmer",
-      "authors": [
-        "Andrew Hunt",
-        "David Thomas"
-      ],
+      "authors": ["Andrew Hunt", "David Thomas"],
       "year": 1999,
-      "categories": [
-        "Programming",
-        "Software Development",
-        "Best Practices"
-      ],
+      "categories": ["Programming", "Software Development", "Best Practices"],
       "description": "Your journey to mastery starts here. A guide to becoming a better programmer.",
       "cover": "assets/pragmatic-programmer.jpeg"
     },
     {
       "id": "5",
       "title": "Atomic Habits",
-      "authors": [
-        "James Clear"
-      ],
+      "authors": ["James Clear"],
       "year": 2018,
-      "categories": [
-        "Self-Help",
-        "Personal Development",
-        "Psychology"
-      ],
+      "categories": ["Self-Help", "Personal Development", "Psychology"],
       "description": "An easy and proven way to build good habits and break bad ones.",
       "cover": "assets/atomic-habits.jpg"
     },
     {
       "id": "6",
       "title": "The Subtle Art of Not Giving a F*ck",
-      "authors": [
-        "Mark Manson"
-      ],
+      "authors": ["Mark Manson"],
       "year": 2016,
-      "categories": [
-        "Self-Help",
-        "Personal Development",
-        "Psychology"
-      ],
+      "categories": ["Self-Help", "Personal Development", "Psychology"],
       "description": "A counterintuitive approach to living a good life.",
       "cover": "assets/art-of-not-giving-a-f*ck.jpg"
     },
     {
       "id": "7",
       "title": "Django 4 By Example",
-      "authors": [
-        "Antonio Mele"
-      ],
+      "authors": ["Antonio Mele"],
       "year": 2022,
-      "categories": [
-        "Programming",
-        "Web Development",
-        "Django",
-        "Python"
-      ],
-      "description": "A practical guide to building web applications with Django 3, from basic to advanced features.",
+      "categories": ["Programming", "Web Development", "Django", "Python"],
+      "description": "A practical guide to building web applications with Django 4, from basic to advanced features.",
       "cover": "assets/django-4.jpg"
     },
     {
       "id": "8",
       "title": "The Lean Startup",
-      "authors": [
-        "Eric Ries"
-      ],
+      "authors": ["Eric Ries"],
       "year": 2011,
-      "categories": [
-        "Business",
-        "Entrepreneurship",
-        "Startups"
-      ],
+      "categories": ["Business", "Entrepreneurship", "Startups"],
       "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses.",
       "cover": "assets/startup.jpg"
     },
     {
       "id": "9",
-      "title": "You Don't Know JS: Scope & Closures",
-      "authors": [
-        "Kyle Simpson"
-      ],
+      "title": "You Don't Know JS: Scope n Closures",
+      "authors": ["Kyle Simpson"],
       "year": 2014,
-      "categories": [
-        "Programming",
-        "JavaScript",
-        "Web Development"
-      ],
+      "categories": ["Programming", "JavaScript", "Web Development"],
       "description": "An in-depth look into JavaScript's scope and closures, a must-read for JavaScript developers.",
       "cover": "assets/you-don't-know-js.jpg"
     },
     {
       "id": "10",
       "title": "The 7 Habits of Highly Effective People",
-      "authors": [
-        "Stephen R. Covey"
-      ],
+      "authors": ["Stephen R. Covey"],
       "year": 1989,
-      "categories": [
-        "Self-Help",
-        "Personal Development",
-        "Leadership"
-      ],
+      "categories": ["Self-Help", "Personal Development", "Leadership"],
       "description": "A principle-centered approach to solving personal and professional problems.",
       "cover": "assets/habits-of-highly-effective-people.jpg"
     },
     {
       "id": "11",
       "title": "The Catcher in the Rye",
-      "authors": [
-        "J.D. Salinger"
-      ],
+      "authors": ["J.D. Salinger"],
       "year": 1951,
-      "categories": [
-        "Literature and Fiction",
-        "Classics",
-        "Young Adult"
-      ],
+      "categories": ["Literature and Fiction", "Classics", "Young Adult"],
       "description": "A story about teenage rebellion and angst in the life of Holden Caulfield.",
       "cover": "assets/the-catcher-in-the-rhy.jpg"
     },
     {
       "id": "12",
       "title": "JavaScript: The Good Parts",
-      "authors": [
-        "Douglas Crockford"
-      ],
+      "authors": ["Douglas Crockford"],
       "year": 2008,
-      "categories": [
-        "Programming",
-        "JavaScript",
-        "Web Development"
-      ],
+      "categories": ["Programming", "JavaScript", "Web Development"],
       "description": "A deep dive into the better parts of JavaScript, highlighting the best practices.",
       "cover": "assets/javascript.jpg"
     },
     {
       "id": "13",
       "title": "Man's Search for Meaning",
-      "authors": [
-        "Viktor E. Frankl"
-      ],
+      "authors": ["Viktor E. Frankl"],
       "year": 1946,
-      "categories": [
-        "Psychology",
-        "Philosophy",
-        "Self-Help"
-      ],
+      "categories": ["Psychology", "Philosophy", "Self-Help"],
       "description": "A profound reflection on finding meaning in the midst of suffering.",
       "cover": "assets/man's-search-for-meaning.jpg"
     },
     {
       "id": "14",
       "title": "The Great Gatsby",
-      "authors": [
-        "F. Scott Fitzgerald"
-      ],
+      "authors": ["F. Scott Fitzgerald"],
       "year": 1925,
-      "categories": [
-        "Literature and Fiction",
-        "Classics",
-        "American Fiction"
-      ],
+      "categories": ["Literature and Fiction", "Classics", "American Fiction"],
       "description": "A novel about the American dream, wealth, and social status in the 1920s.",
       "cover": "assets/the-great-gatsby.jpg"
     },
     {
       "id": "15",
       "title": "Eloquent JavaScript",
-      "authors": [
-        "Marijn Haverbeke"
-      ],
+      "authors": ["Marijn Haverbeke"],
       "year": 2011,
-      "categories": [
-        "Programming",
-        "JavaScript",
-        "Web Development"
-      ],
+      "categories": ["Programming", "JavaScript", "Web Development"],
       "description": "A modern introduction to JavaScript, covering everything from the basics to more advanced topics.",
       "cover": "/assets/eloquent-js.jpg"
     },
     {
       "id": "16",
       "title": "Deep Work",
-      "authors": [
-        "Cal Newport"
-      ],
+      "authors": ["Cal Newport"],
       "year": 2016,
-      "categories": [
-        "Self-Help",
-        "Productivity",
-        "Personal Development"
-      ],
+      "categories": ["Self-Help", "Productivity", "Personal Development"],
       "description": "A guide to focusing on the important work that brings the most value.",
       "cover": "/assets/deep-work.jpg"
     },
     {
       "id": "17",
       "title": "Pride and Prejudice",
-      "authors": [
-        "Jane Austen"
-      ],
+      "authors": ["Jane Austen"],
       "year": 1813,
-      "categories": [
-        "Literature and Fiction",
-        "Classics",
-        "Romance"
-      ],
+      "categories": ["Literature and Fiction", "Classics", "Romance"],
       "description": "A romantic novel that explores the issues of class, marriage, and social standing.",
       "cover": "assets/pride-and-prejudice.jpeg"
     },
     {
       "id": "18",
       "title": "Thinking, Fast and Slow",
-      "authors": [
-        "Daniel Kahneman"
-      ],
+      "authors": ["Daniel Kahneman"],
       "year": 2011,
-      "categories": [
-        "Psychology",
-        "Cognitive Science",
-        "Self-Help"
-      ],
+      "categories": ["Psychology", "Cognitive Science", "Self-Help"],
       "description": "A book that explores the two systems of thinking and how they shape our decisions.",
       "cover": "assets/thinking-first-and-slow.jpg"
     },
     {
       "id": "19",
       "title": "The Art of Computer Programming",
-      "authors": [
-        "Donald E. Knuth"
-      ],
+      "authors": ["Donald E. Knuth"],
       "year": 1968,
-      "categories": [
-        "Programming",
-        "Computer Science",
-        "Algorithms"
-      ],
+      "categories": ["Programming", "Computer Science", "Algorithms"],
       "description": "A comprehensive monograph written by Donald Knuth that covers many kinds of programming algorithms.",
       "cover": "assets/art-of-computer-programming.png"
     },
     {
       "id": "20",
       "title": "How to Win Friends and Influence People",
-      "authors": [
-        "Dale Carnegie"
-      ],
+      "authors": ["Dale Carnegie"],
       "year": 1936,
-      "categories": [
-        "Self-Help",
-        "Personal Development",
-        "Communication"
-      ],
+      "categories": ["Self-Help", "Personal Development", "Communication"],
       "description": "A timeless guide to improving your social skills and becoming more influential.",
       "cover": "/assets/0nMGukoSBurGzyONnUvwLh0QPGxbhq35d4fLCkkTAWA-MEDIUM.jpg"
-    },
-    {
-      "id": "212f",
-      "title": "Psychology of Money",
-      "authors": [
-        "Morgan Housel"
-      ],
-      "year": "2024",
-      "categories": [
-        "Business"
-      ],
-      "description": "The psychology of money book",
-      "cover": "data:image/jpeg;base64,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"
     }
   ],
   "categories": [

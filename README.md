@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# React Bookstore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
 
-## Available Scripts
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
 
-In the project directory, you can run:
+# Introduction
 
-### `npm start`
+This is a simple React application designed to manage a book library. It allows users to add, edit, and delete books, as well as filter books by title, author, or category.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View a list of books
+- Add a new book
+- Edit book details
+- Delete a book
+- Filter books by title, author, or category
 
-### `npm test`
+# Technologies used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- React Router DOM
+- JSON Server(Mock Database)
 
-### `npm run build`
+# Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Faith-K-commits/booknest.git
+   cd booknest
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Start the JSON server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+    json-server --watch src/db.json --port 8001
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+       npm start
+   ```
 
-## Learn More
+3. Open your browser and navigate to `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# API Endpoints
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Books Endpoints
 
-### Code Splitting
+### Fetch Books
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Method: GET
+- Endpoint: `/books`
+- Description: Fetch and display a collection of books available
+- Example request: `http://localhost:8001/books`
 
-### Analyzing the Bundle Size
+### Add Book
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Method: POST
+- Endpoint: `/books`
+- Description: Add a book to the collection of books
+- Example request: `http://localhost:8001/books`
 
-### Making a Progressive Web App
+### Edit Book
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Method: PATCH
+- Endpoint: `/books/:id`
+- Description: Edit book details
+- Example request: `http://localhost:8001/books/${id}`
 
-### Advanced Configuration
+### Delete Book
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Method: DELETE
+- Endpoint: `/books/:id`
+- Description: Remove a book from the collection
+- Example request: `http://localhost:8001/books/${id}`
 
-### Deployment
+### View Book Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Method: GET
+- Endpoint: `/books/:title`
+- Description: View individual book information
+- Example request: `http://localhost:8001/books?title=${title}`
 
-### `npm run build` fails to minify
+## Category Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Get Categories
+
+- Method: GET
+- Endpoint: `/categories`
+- Description: View a list of categories for the book collection
+- Example Request: `http://localhost:8001/categories`
+
+### Get Books in a category
+
+- Method: GET
+- Endpoint: `/categories/:category`
+- Description: View a list of books in a specific category
+- Exampe Request: `http://localhost:8001/books?categories_like=${category}`
