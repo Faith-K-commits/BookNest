@@ -7,7 +7,7 @@
       "year": 2017,
       "categories": ["Programming", "Web Development", "APIs", "Spring Boot"],
       "description": "A comprehensive guide to building RESTful APIs using Spring Boot, including best practices and advanced techniques.",
-      "cover": "assets/pro-restful-apis-with-springboot.jpg"
+      "cover": "/assets/pro-restful-apis-with-springboot.jpg"
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "year": 2014,
       "categories": ["Programming", "Web Development", "Python", "Flask"],
       "description": "A hands-on guide to building web applications with Flask, a lightweight Python framework, covering the basics to advanced features.",
-      "cover": "assets/flask-web-development.jpg"
+      "cover": "/assets/flask-web-development.jpg"
     },
     {
       "id": "3",
@@ -25,7 +25,7 @@
       "year": 2008,
       "categories": ["Programming", "Software Development", "Best Practices"],
       "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable code.",
-      "cover": "assets/clean-code.jpeg"
+      "cover": "/assets/clean-code.jpeg"
     },
     {
       "id": "4",
@@ -34,7 +34,7 @@
       "year": 1999,
       "categories": ["Programming", "Software Development", "Best Practices"],
       "description": "Your journey to mastery starts here. A guide to becoming a better programmer.",
-      "cover": "assets/pragmatic-programmer.jpeg"
+      "cover": "/assets/pragmatic-programmer.jpeg"
     },
     {
       "id": "5",
@@ -43,7 +43,7 @@
       "year": 2018,
       "categories": ["Self-Help", "Personal Development", "Psychology"],
       "description": "An easy and proven way to build good habits and break bad ones.",
-      "cover": "assets/atomic-habits.jpg"
+      "cover": "/assets/atomic-habits.jpg"
     },
     {
       "id": "6",
@@ -52,7 +52,7 @@
       "year": 2016,
       "categories": ["Self-Help", "Personal Development", "Psychology"],
       "description": "A counterintuitive approach to living a good life.",
-      "cover": "assets/art-of-not-giving-a-f*ck.jpg"
+      "cover": "/assets/art-of-not-giving-a-f*ck.jpg"
     },
     {
       "id": "7",
@@ -61,7 +61,7 @@
       "year": 2022,
       "categories": ["Programming", "Web Development", "Django", "Python"],
       "description": "A practical guide to building web applications with Django 4, from basic to advanced features.",
-      "cover": "assets/django-4.jpg"
+      "cover": "/assets/django-4.jpg"
     },
     {
       "id": "8",
@@ -70,7 +70,7 @@
       "year": 2011,
       "categories": ["Business", "Entrepreneurship", "Startups"],
       "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses.",
-      "cover": "assets/startup.jpg"
+      "cover": "/assets/startup.jpg"
     },
     {
       "id": "9",
@@ -79,7 +79,7 @@
       "year": 2014,
       "categories": ["Programming", "JavaScript", "Web Development"],
       "description": "An in-depth look into JavaScript's scope and closures, a must-read for JavaScript developers.",
-      "cover": "assets/you-don't-know-js.jpg"
+      "cover": "/assets/you-don't-know-js.jpg"
     },
     {
       "id": "10",
@@ -88,7 +88,7 @@
       "year": 1989,
       "categories": ["Self-Help", "Personal Development", "Leadership"],
       "description": "A principle-centered approach to solving personal and professional problems.",
-      "cover": "assets/habits-of-highly-effective-people.jpg"
+      "cover": "/assets/habits-of-highly-effective-people.jpg"
     },
     {
       "id": "11",
@@ -97,7 +97,7 @@
       "year": 1951,
       "categories": ["Literature and Fiction", "Classics", "Young Adult"],
       "description": "A story about teenage rebellion and angst in the life of Holden Caulfield.",
-      "cover": "assets/the-catcher-in-the-rhy.jpg"
+      "cover": "/assets/the-catcher-in-the-rhy.jpg"
     },
     {
       "id": "12",
@@ -106,7 +106,7 @@
       "year": 2008,
       "categories": ["Programming", "JavaScript", "Web Development"],
       "description": "A deep dive into the better parts of JavaScript, highlighting the best practices.",
-      "cover": "assets/javascript.jpg"
+      "cover": "/assets/javascript.jpg"
     },
     {
       "id": "13",
@@ -115,7 +115,7 @@
       "year": 1946,
       "categories": ["Psychology", "Philosophy", "Self-Help"],
       "description": "A profound reflection on finding meaning in the midst of suffering.",
-      "cover": "assets/man's-search-for-meaning.jpg"
+      "cover": "/assets/man's-search-for-meaning.jpg"
     },
     {
       "id": "14",
@@ -124,7 +124,7 @@
       "year": 1925,
       "categories": ["Literature and Fiction", "Classics", "American Fiction"],
       "description": "A novel about the American dream, wealth, and social status in the 1920s.",
-      "cover": "assets/the-great-gatsby.jpg"
+      "cover": "/assets/the-great-gatsby.jpg"
     },
     {
       "id": "15",
@@ -151,7 +151,7 @@
       "year": 1813,
       "categories": ["Literature and Fiction", "Classics", "Romance"],
       "description": "A romantic novel that explores the issues of class, marriage, and social standing.",
-      "cover": "assets/pride-and-prejudice.jpeg"
+      "cover": "/assets/pride-and-prejudice.jpeg"
     },
     {
       "id": "18",
@@ -160,7 +160,7 @@
       "year": 2011,
       "categories": ["Psychology", "Cognitive Science", "Self-Help"],
       "description": "A book that explores the two systems of thinking and how they shape our decisions.",
-      "cover": "assets/thinking-first-and-slow.jpg"
+      "cover": "/assets/thinking-first-and-slow.jpg"
     },
     {
       "id": "19",
@@ -169,7 +169,7 @@
       "year": 1968,
       "categories": ["Programming", "Computer Science", "Algorithms"],
       "description": "A comprehensive monograph written by Donald Knuth that covers many kinds of programming algorithms.",
-      "cover": "assets/art-of-computer-programming.png"
+      "cover": "/assets/art-of-computer-programming.png"
     },
     {
       "id": "20",
