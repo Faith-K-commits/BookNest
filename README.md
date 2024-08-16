@@ -115,4 +115,4 @@ This is a simple React application designed to manage a book library. It allows 
 
 # Demo
 
-[![View Demo](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
+[![View Demo](https://github.com/Faith-K-commits/BookNest/blob/master/public/assets/Thumbnail.png)](https://www.loom.com/share/12a59d33148e4ad389dc3ddd8e4f1b57?sid=78de8721-7b02-4723-98d2-5e8df2fbbbcb)
