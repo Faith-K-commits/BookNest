@@ -23,6 +23,7 @@ Live Link: https://book-nest-beta.vercel.app/
 - Edit book details
 - Delete a book
 - Filter books by title, author, or category
+- Responsive Design
 
 # Technologies used
 
