@@ -50,105 +50,107 @@ const BookDetail = () => {
   if (loading) return <h1>Loading Book...</h1>;
 
   return (
-    <div className="form">
-      {isEditing ? (
-        <div>
-          <h1>Edit Book: {book.title}</h1>
-          <img src={book.cover} alt={`${book.title} cover`} />
-          <form>
-            <label>
-              <strong>Title:</strong>
-              <input
-                type="text"
-                name="title"
-                value={book.title}
-                onChange={handleInputChange}
-              />
-            </label>
-            <label>
-              <strong>Authors:</strong>
-              <input
-                type="text"
-                name="authors"
-                value={book.authors.join(", ")}
-                onChange={(e) =>
-                  setBook({ ...book, authors: e.target.value.split(", ") })
-                }
-              />
-            </label>
-            <label>
-              <strong>Year:</strong>
-              <input
-                type="text"
-                name="year"
-                value={book.year}
-                onChange={handleInputChange}
-              />
-            </label>
-            <label>
-              <strong>Categories:</strong>
-              <input
-                type="text"
-                name="categories"
-                value={book.categories.join(", ")}
-                onChange={(e) =>
-                  setBook({ ...book, categories: e.target.value.split(", ") })
-                }
-              />
-            </label>
-            <label>
-              <strong>Description:</strong>
-              <input
-                type="text"
-                name="description"
-                value={book.description}
-                onChange={handleInputChange}
-              />
-            </label>
+    <div className="card">
+      <div className="form">
+        {isEditing ? (
+          <div>
+            <h1>Edit Book: {book.title}</h1>
+            <img src={book.cover} alt={`${book.title} cover`} />
+            <form>
+              <label>
+                <strong>Title:</strong>
+                <input
+                  type="text"
+                  name="title"
+                  value={book.title}
+                  onChange={handleInputChange}
+                />
+              </label>
+              <label>
+                <strong>Authors:</strong>
+                <input
+                  type="text"
+                  name="authors"
+                  value={book.authors.join(", ")}
+                  onChange={(e) =>
+                    setBook({ ...book, authors: e.target.value.split(", ") })
+                  }
+                />
+              </label>
+              <label>
+                <strong>Year:</strong>
+                <input
+                  type="text"
+                  name="year"
+                  value={book.year}
+                  onChange={handleInputChange}
+                />
+              </label>
+              <label>
+                <strong>Categories:</strong>
+                <input
+                  type="text"
+                  name="categories"
+                  value={book.categories.join(", ")}
+                  onChange={(e) =>
+                    setBook({ ...book, categories: e.target.value.split(", ") })
+                  }
+                />
+              </label>
+              <label>
+                <strong>Description:</strong>
+                <input
+                  type="text"
+                  name="description"
+                  value={book.description}
+                  onChange={handleInputChange}
+                />
+              </label>
+              <div className="buttons">
+                <button
+                  type="button"
+                  className="edit"
+                  onClick={handleSaveChanges}
+                >
+                  Save Changes
+                </button>
+                <button
+                  type="button"
+                  className="delete"
+                  onClick={handleCancelEdit}
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        ) : (
+          <div className="book-detail-content">
+            <h1>{book.title}</h1>
+            <img src={book.cover} alt={`${book.title} cover`} />
+            <p>
+              <strong>Authors:</strong> {book.authors.join(", ")}
+            </p>
+            <p>
+              <strong>Year:</strong> {book.year}
+            </p>
+            <p>
+              <strong>Categories:</strong> {book.categories.join(", ")}
+            </p>
+            <p>
+              <strong>Description:</strong> {book.description}
+            </p>
             <div className="buttons">
-              <button
-                type="button"
-                className="edit"
-                onClick={handleSaveChanges}
-              >
-                Save Changes
+              <button onClick={handleEditClick} className="edit">
+                Edit
               </button>
-              <button
-                type="button"
-                className="delete"
-                onClick={handleCancelEdit}
-              >
-                Cancel
+              <button className="delete" onClick={handleDelete}>
+                Delete
               </button>
             </div>
-          </form>
-        </div>
-      ) : (
-        <div className="book-detail-content">
-          <h1>{book.title}</h1>
-          <img src={book.cover} alt={`${book.title} cover`} />
-          <p>
-            <strong>Authors:</strong> {book.authors.join(", ")}
-          </p>
-          <p>
-            <strong>Year:</strong> {book.year}
-          </p>
-          <p>
-            <strong>Categories:</strong> {book.categories.join(", ")}
-          </p>
-          <p>
-            <strong>Description:</strong> {book.description}
-          </p>
-          <div className="buttons">
-            <button onClick={handleEditClick} className="edit">
-              Edit
-            </button>
-            <button className="delete" onClick={handleDelete}>
-              Delete
-            </button>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
